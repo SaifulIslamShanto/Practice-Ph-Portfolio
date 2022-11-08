@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+.flex_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-area,
+.Dream-Big-area {
+    padding: 20px 40px;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.hero-area .hero-content {}
+
+.Dream-Big .Dream-Big-content h3,
+.hero-area .hero-content h3 {
+    font-size: 36px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 50px;
+}
+
+.hero-area .hero-content h1,
+.Dream-Big .Dream-Big-content h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.color-text {
+    background: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #12080549;
+}
+
+.hero-area .hero-content p,
+.Dream-Big .Dream-Big-content p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.Dream-Big .Dream-Big-content p {
+    width: 90%;
+}
+
+.Dream-Big .Dream-Big-content a,
+.hero-area .hero-content a {
+    background: linear-gradient(orange, tomato);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 5px;
+    transition: box-shadow .2s ease-in;
+}
+
+.Dream-Big .Dream-Big-content a:hover,
+.hero-area .hero-content a:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image img {
+    padding-left: 50px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.Dream-Big-image img {
+    padding-right: 50px;
+    filter: drop-shadow(0px 10px 15px rgba(20, 20, 20, 0.1));
+}
+
+.Dream-big {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Dream Big */
+.expariance {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-item {}
+
+.expariance>h1 {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.exp-item .exp-content {
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.exp-item .exp-content h1 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.exp-item .exp-content h3 {
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.exp-item .exp-content p {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.exp-content h3 {
+    color: orange;
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+footer {
+    background: linear-gradient(blue, cyan);
+    padding: 20px 0px;
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 600;
+}
